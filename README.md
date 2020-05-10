@@ -4,6 +4,9 @@
 
 Set credentials ([obatining a personal token](https://github.blog/2013-05-16-personal-api-tokens/))
 ```python
+from getvccs import get_potential_vccs
+from github import Github
+
 g = Github("GITHUB_USERNAME", "GITHUB_PASSWORD")
 APITOKEN = 'GITHUB_PERSONAL_ACCESS_TOKEN'
 ```
